@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<root>
+<player_heros version="1.0" distance="20">
+		<hero heroName="hero1" posX="10">
+		</hero>
+		<hero heroName="hero2">
+		</hero>
+</player_heros>
+
+
+<actionSpriteTemplets name="actionSpriteTemplets">
+	<templet name="hero1">
+		<states>
+			<state id ="1" name="stand" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="1.0" moveSpeed="0.0">
+			</state>
+			<state id ="2" name="yidong" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="5.0" moveSpeed="5.0">
+			</state>
+			<state id ="3" name="siwang" frameNamePrefix="datoujiguai/siwang/0100" frameNum ="10" frameSpeed="5.0" moveSpeed="5.0">
+			</state>
+		</states>
+	</templet>
+	<templet name="hero2">
+	</templet>
+</actionSpriteTemplets>
+</root>

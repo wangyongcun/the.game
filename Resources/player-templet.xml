@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<root>
+
+  <map tiledMap="" textureFilePng="test1.png" textureFilePlist="test1.plist">
+
+  </map>
+
+  <player_heroes max-distance="80" min-distance="50" check-adjust-group-delta="500" ammo-type-id= "0" >
+    <hero heroName="hero1" speed="60"  posX="150" posY ="30">
+    </hero>
+    <hero heroName="hero2" speed="80"  posX="300" posY ="40">
+    </hero>
+    <hero heroName="hero3" speed="100" posX="400" posY ="40">
+    </hero>
+    <hero heroName="hero4" speed="80"  posX="400" posY ="40">
+    </hero>
+  </player_heroes>
+
+  <ammos name="">
+    <ammo name="" display-type="sprite" display-path="hero-idle" speed="10" fly-heigh="400"/>
+    <ammo name="" display-type="action-sprite" display-path="action-arrow" speed="10" fly-heigh="400"/>
+  </ammos>
+
+  <sprites name="">
+    <sprite name="arrow"  path="arrow.png"/>
+  </sprites>
+
+  <aciton-sprites name="">
+    <aciton-sprites name="action-arrow" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="1.0"/>
+    
+    <aciton-sprites name="hero1-stand" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="1.0"/>
+    <aciton-sprites name="hero1-walk" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="1.0"/>
+    <aciton-sprites name="hero1-attack" frameNamePrefix="datoujiguai/yidong/0100" frameNum ="10" frameSpeed="1.0"/>
+  </aciton-sprites>
+
+  <actionSpriteTemplets name="actionSpriteTemplets">
+    <templet heroName="hero1">
+      <states>
+        <state id ="1" name="stand" display-type="action-sprite" display-path="hero1-stand">
+        </state>
+        <state id ="2" name="yidong" display-type="action-sprite" display-path="hero1-stand">
+        </state>
+        <state id ="3" name="siwang" display-type="action-sprite" display-path="hero1-stand">
+        </state>
+      </states>
+    </templet>
+    <templet heroName="hero2">
+    </templet>
+  </actionSpriteTemplets>
+</root>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{a2ab3fe2-7186-4c65-92d8-47a38f26ade9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{11b5e75c-be16-496b-bc56-5a17fe506281}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2ff33f30-ba8a-4910-9da3-4ce9609524df}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PrompaDroid.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images-hd.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images-ipadhd.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pd_tilemap.tmx">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pd_tiles.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\UI.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\UI.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pd_sprites.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pd_sprites.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PrompaDroid.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Robot.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HudLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sneaky\SneakyJoystickSkinnedBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sneaky\SneakyButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sneaky\SneakyButtonSkinnedBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sneaky\SneakyJoystick.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ASMonster.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHeroGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FSTMachine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigMgr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sneaky\SneakyJoystickSkinnedBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sneaky\SneakyButton.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sneaky\SneakyButtonSkinnedBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sneaky\SneakyJoystick.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HudLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Robot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ASMonster.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserHeroGroup.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="FSTMachine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigMgr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

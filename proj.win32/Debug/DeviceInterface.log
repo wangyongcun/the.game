@@ -1,0 +1,90 @@
+﻿  ITexture.cpp
+g:\game\the\deviceinterface\itexture.h(6): error C2653: 'Foundation' : is not a class or namespace name
+g:\game\the\deviceinterface\itexture.h(7): error C2504: 'IObject' : base class undefined
+g:\game\the\deviceinterface\itexture.h(12): error C2146: syntax error : missing ';' before identifier 'ReadyToDraw'
+g:\game\the\deviceinterface\itexture.h(12): error C2433: 'DeviceInterface::ITexture::BOOL' : 'virtual' not permitted on data declarations
+g:\game\the\deviceinterface\itexture.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\itexture.h(12): warning C4183: 'ReadyToDraw': missing return type; assumed to be a member function returning 'int'
+g:\game\the\deviceinterface\itexture.h(12): error C2253: 'DeviceInterface::ITexture::ReadyToDraw' : pure specifier or abstract override specifier only allowed on virtual function
+g:\game\the\deviceinterface\itexture.h(21): error C2259: 'DeviceInterface::ITexture' : cannot instantiate abstract class
+          due to following members:
+          'int DeviceInterface::ITexture::GetWidth(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(13) : see declaration of 'DeviceInterface::ITexture::GetWidth'
+          'int DeviceInterface::ITexture::GetHeight(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(14) : see declaration of 'DeviceInterface::ITexture::GetHeight'
+          'int DeviceInterface::ITexture::GetRawWidth(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(15) : see declaration of 'DeviceInterface::ITexture::GetRawWidth'
+          'int DeviceInterface::ITexture::GetRawHeight(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(16) : see declaration of 'DeviceInterface::ITexture::GetRawHeight'
+          'int DeviceInterface::ITexture::GetRawPositionX(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(17) : see declaration of 'DeviceInterface::ITexture::GetRawPositionX'
+          'int DeviceInterface::ITexture::GetRawPositionY(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(18) : see declaration of 'DeviceInterface::ITexture::GetRawPositionY'
+          'void *DeviceInterface::ITexture::GetTextureInterface(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(19) : see declaration of 'DeviceInterface::ITexture::GetTextureInterface'
+g:\game\the\deviceinterface\itexture.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  ISprite2D.cpp
+g:\game\the\deviceinterface\itexture.h(6): error C2653: 'Foundation' : is not a class or namespace name
+g:\game\the\deviceinterface\itexture.h(7): error C2504: 'IObject' : base class undefined
+g:\game\the\deviceinterface\itexture.h(12): error C2146: syntax error : missing ';' before identifier 'ReadyToDraw'
+g:\game\the\deviceinterface\itexture.h(12): error C2433: 'DeviceInterface::ITexture::BOOL' : 'virtual' not permitted on data declarations
+g:\game\the\deviceinterface\itexture.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\itexture.h(12): warning C4183: 'ReadyToDraw': missing return type; assumed to be a member function returning 'int'
+g:\game\the\deviceinterface\itexture.h(12): error C2253: 'DeviceInterface::ITexture::ReadyToDraw' : pure specifier or abstract override specifier only allowed on virtual function
+g:\game\the\deviceinterface\itexture.h(21): error C2259: 'DeviceInterface::ITexture' : cannot instantiate abstract class
+          due to following members:
+          'int DeviceInterface::ITexture::GetWidth(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(13) : see declaration of 'DeviceInterface::ITexture::GetWidth'
+          'int DeviceInterface::ITexture::GetHeight(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(14) : see declaration of 'DeviceInterface::ITexture::GetHeight'
+          'int DeviceInterface::ITexture::GetRawWidth(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(15) : see declaration of 'DeviceInterface::ITexture::GetRawWidth'
+          'int DeviceInterface::ITexture::GetRawHeight(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(16) : see declaration of 'DeviceInterface::ITexture::GetRawHeight'
+          'int DeviceInterface::ITexture::GetRawPositionX(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(17) : see declaration of 'DeviceInterface::ITexture::GetRawPositionX'
+          'int DeviceInterface::ITexture::GetRawPositionY(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(18) : see declaration of 'DeviceInterface::ITexture::GetRawPositionY'
+          'void *DeviceInterface::ITexture::GetTextureInterface(void)' : is abstract
+          g:\game\the\deviceinterface\itexture.h(19) : see declaration of 'DeviceInterface::ITexture::GetTextureInterface'
+g:\game\the\deviceinterface\itexture.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(16): error C2065: 'ISprite2D' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(16): error C2365: 'DeviceInterface::SmartPointer' : redefinition; previous definition was 'function'
+          g:\game\the\deviceinterface\itexture.h(21) : see declaration of 'DeviceInterface::SmartPointer'
+g:\game\the\deviceinterface\isprite2d.h(36): error C2653: 'Foundation' : is not a class or namespace name
+g:\game\the\deviceinterface\isprite2d.h(37): error C2504: 'IObject' : base class undefined
+g:\game\the\deviceinterface\isprite2d.h(56): error C2061: syntax error : identifier 'BOOL'
+g:\game\the\deviceinterface\isprite2d.h(63): error C2146: syntax error : missing ';' before identifier 'Copy'
+g:\game\the\deviceinterface\isprite2d.h(63): error C2433: 'DeviceInterface::ISprite2D::ISprite2DPtr' : 'virtual' not permitted on data declarations
+g:\game\the\deviceinterface\isprite2d.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(63): warning C4183: 'Copy': missing return type; assumed to be a member function returning 'int'
+g:\game\the\deviceinterface\isprite2d.h(64): error C2061: syntax error : identifier 'BOOL'
+g:\game\the\deviceinterface\isprite2d.h(68): error C2146: syntax error : missing ';' before identifier 'GetVisible'
+g:\game\the\deviceinterface\isprite2d.h(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(71): warning C4183: 'GetVisible': missing return type; assumed to be a member function returning 'int'
+g:\game\the\deviceinterface\isprite2d.h(93): error C2146: syntax error : missing ';' before identifier 'IsAnimationOver'
+g:\game\the\deviceinterface\isprite2d.h(93): error C2433: 'DeviceInterface::ISprite2D::BOOL' : 'virtual' not permitted on data declarations
+g:\game\the\deviceinterface\isprite2d.h(93): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(94): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(96): warning C4183: 'IsAnimationOver': missing return type; assumed to be a member function returning 'int'
+g:\game\the\deviceinterface\isprite2d.h(154): error C2146: syntax error : missing ';' before identifier '_visible'
+g:\game\the\deviceinterface\isprite2d.h(154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(157): error C2146: syntax error : missing ';' before identifier '_drawAreaON'
+g:\game\the\deviceinterface\isprite2d.h(157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\game\the\deviceinterface\isprite2d.h(63): error C2253: 'DeviceInterface::ISprite2D::Copy' : pure specifier or abstract override specifier only allowed on virtual function
+g:\game\the\deviceinterface\isprite2d.h(66): error C2065: '_visible' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.h(66): error C2065: 'on' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.h(70): error C2065: '_visible' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.h(95): error C2065: 'FALSE' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.cpp(24): error C2065: 'FALSE' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.cpp(25): error C2614: 'DeviceInterface::ISprite2D' : illegal member initialization: '_drawAreaON' is not a base or member
+g:\game\the\deviceinterface\isprite2d.cpp(25): error C2614: 'DeviceInterface::ISprite2D' : illegal member initialization: '_visible' is not a base or member
+g:\game\the\deviceinterface\isprite2d.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+g:\game\the\deviceinterface\isprite2d.cpp(78): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+g:\game\the\deviceinterface\isprite2d.cpp(79): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+g:\game\the\deviceinterface\isprite2d.cpp(103): error C2061: syntax error : identifier 'BOOL'
+g:\game\the\deviceinterface\isprite2d.cpp(105): error C2065: '_drawAreaON' : undeclared identifier
+g:\game\the\deviceinterface\isprite2d.cpp(105): error C2065: 'on' : undeclared identifier
+  Generating Code...
